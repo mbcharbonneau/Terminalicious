@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {setPosition = id; setTerminalApp = id; toggleKeepWindowOpen = id; }; 
+            CLASS = DSHPrefsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {terminalApp = NSMatrix; windowPosition = NSPopUpButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

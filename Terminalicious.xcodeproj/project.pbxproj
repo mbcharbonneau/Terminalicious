@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4918319A07E8EA7000AAA839 /* terminalicious.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4918319907E8EA7000AAA839 /* terminalicious.icns */; };
+		49219F04088EE9DE00303F9B /* DSHCustomSelectionColorTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49219F03088EE9DE00303F9B /* DSHCustomSelectionColorTextView.m */; };
+		4931B6BB07E7A5A8008C794B /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4931B6B907E7A5A8008C794B /* MainMenu.nib */; };
+		4931B6C607E7A5BA008C794B /* DSHTransparentDraggableWindow.h in Resources */ = {isa = PBXBuildFile; fileRef = 4931B6BE07E7A5BA008C794B /* DSHTransparentDraggableWindow.h */; };
+		4931B6C707E7A5BA008C794B /* DSHController.h in Resources */ = {isa = PBXBuildFile; fileRef = 4931B6BF07E7A5BA008C794B /* DSHController.h */; };
+		4931B6C807E7A5BA008C794B /* DSHController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4931B6C007E7A5BA008C794B /* DSHController.m */; };
+		4931B6C907E7A5BA008C794B /* DSHTransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4931B6C107E7A5BA008C794B /* DSHTransparentView.m */; };
+		4931B6CA07E7A5BA008C794B /* DSHTransparentView.h in Resources */ = {isa = PBXBuildFile; fileRef = 4931B6C207E7A5BA008C794B /* DSHTransparentView.h */; };
+		4931B6CB07E7A5BA008C794B /* DSHTransparentDraggableWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4931B6C307E7A5BA008C794B /* DSHTransparentDraggableWindow.m */; };
+		4931B6CC07E7A5BA008C794B /* DSHTransparentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4931B6C407E7A5BA008C794B /* DSHTransparentWindow.m */; };
+		4931B6CD07E7A5BA008C794B /* DSHTransparentWindow.h in Resources */ = {isa = PBXBuildFile; fileRef = 4931B6C507E7A5BA008C794B /* DSHTransparentWindow.h */; };
+		4931B6D107E7A5C3008C794B /* statusitem.tif in Resources */ = {isa = PBXBuildFile; fileRef = 4931B6D007E7A5C3008C794B /* statusitem.tif */; };
+		4931B6D507E7A5CA008C794B /* background.tif in Resources */ = {isa = PBXBuildFile; fileRef = 4931B6D407E7A5CA008C794B /* background.tif */; };
+		4996F87D0A392109006E6332 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4996F87C0A392109006E6332 /* Credits.rtf */; };
+		4996F8990A39967E006E6332 /* TRMHotkeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4996F8980A39967E006E6332 /* TRMHotkeyManager.m */; };
+		49AF5E67081471030016085E /* iterm.applescript in Resources */ = {isa = PBXBuildFile; fileRef = 49AF5E66081471030016085E /* iterm.applescript */; };
+		49AF5E7E081472360016085E /* terminal.applescript in Resources */ = {isa = PBXBuildFile; fileRef = 49AF5E7D081472360016085E /* terminal.applescript */; };
+		49ED6F8A089F4D3F001303DE /* Prefs.nib in Resources */ = {isa = PBXBuildFile; fileRef = 49ED6F89089F4D3F001303DE /* Prefs.nib */; };
+		49ED6F92089F4EF7001303DE /* DSHPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ED6F91089F4EF7001303DE /* DSHPrefsController.m */; };
+		49F57F990A3A68B5003D59DF /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F57F980A3A68B5003D59DF /* Carbon.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Terminalicious_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Terminalicious_Prefix.pch; sourceTree = "<group>"; };
+		4918319907E8EA7000AAA839 /* terminalicious.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = terminalicious.icns; sourceTree = "<group>"; };
+		49219F02088EE9DE00303F9B /* DSHCustomSelectionColorTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHCustomSelectionColorTextView.h; sourceTree = "<group>"; };
+		49219F03088EE9DE00303F9B /* DSHCustomSelectionColorTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHCustomSelectionColorTextView.m; sourceTree = "<group>"; };
+		4931B6BA07E7A5A8008C794B /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		4931B6BE07E7A5BA008C794B /* DSHTransparentDraggableWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DSHTransparentDraggableWindow.h; sourceTree = "<group>"; };
+		4931B6BF07E7A5BA008C794B /* DSHController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DSHController.h; sourceTree = "<group>"; };
+		4931B6C007E7A5BA008C794B /* DSHController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DSHController.m; sourceTree = "<group>"; };
+		4931B6C107E7A5BA008C794B /* DSHTransparentView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DSHTransparentView.m; sourceTree = "<group>"; };
+		4931B6C207E7A5BA008C794B /* DSHTransparentView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DSHTransparentView.h; sourceTree = "<group>"; };
+		4931B6C307E7A5BA008C794B /* DSHTransparentDraggableWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DSHTransparentDraggableWindow.m; sourceTree = "<group>"; };
+		4931B6C407E7A5BA008C794B /* DSHTransparentWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DSHTransparentWindow.m; sourceTree = "<group>"; };
+		4931B6C507E7A5BA008C794B /* DSHTransparentWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DSHTransparentWindow.h; sourceTree = "<group>"; };
+		4931B6D007E7A5C3008C794B /* statusitem.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = statusitem.tif; sourceTree = "<group>"; };
+		4931B6D407E7A5CA008C794B /* background.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = background.tif; sourceTree = "<group>"; };
+		4996F87C0A392109006E6332 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		4996F8970A39967E006E6332 /* TRMHotkeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMHotkeyManager.h; sourceTree = "<group>"; };
+		4996F8980A39967E006E6332 /* TRMHotkeyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMHotkeyManager.m; sourceTree = "<group>"; };
+		49AF5E66081471030016085E /* iterm.applescript */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.applescript; path = iterm.applescript; sourceTree = "<group>"; };
+		49AF5E7D081472360016085E /* terminal.applescript */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.applescript; path = terminal.applescript; sourceTree = "<group>"; };
+		49ED6F89089F4D3F001303DE /* Prefs.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = Prefs.nib; sourceTree = "<group>"; };
+		49ED6F90089F4EF7001303DE /* DSHPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DSHPrefsController.h; sourceTree = "<group>"; };
+		49ED6F91089F4EF7001303DE /* DSHPrefsController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DSHPrefsController.m; sourceTree = "<group>"; };
+		49F57F980A3A68B5003D59DF /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Terminalicious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Terminalicious.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				49F57F990A3A68B5003D59DF /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4931B6BF07E7A5BA008C794B /* DSHController.h */,
+				4931B6C007E7A5BA008C794B /* DSHController.m */,
+				49ED6F90089F4EF7001303DE /* DSHPrefsController.h */,
+				49ED6F91089F4EF7001303DE /* DSHPrefsController.m */,
+				4996F8970A39967E006E6332 /* TRMHotkeyManager.h */,
+				4996F8980A39967E006E6332 /* TRMHotkeyManager.m */,
+				4931B6C107E7A5BA008C794B /* DSHTransparentView.m */,
+				4931B6C207E7A5BA008C794B /* DSHTransparentView.h */,
+				4931B6BE07E7A5BA008C794B /* DSHTransparentDraggableWindow.h */,
+				4931B6C307E7A5BA008C794B /* DSHTransparentDraggableWindow.m */,
+				4931B6C507E7A5BA008C794B /* DSHTransparentWindow.h */,
+				4931B6C407E7A5BA008C794B /* DSHTransparentWindow.m */,
+				49219F02088EE9DE00303F9B /* DSHCustomSelectionColorTextView.h */,
+				49219F03088EE9DE00303F9B /* DSHCustomSelectionColorTextView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49F57F980A3A68B5003D59DF /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Terminalicious.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Terminalicious */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Terminalicious;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Terminalicious_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49AF5E66081471030016085E /* iterm.applescript */,
+				49AF5E7D081472360016085E /* terminal.applescript */,
+				4918319907E8EA7000AAA839 /* terminalicious.icns */,
+				4996F87C0A392109006E6332 /* Credits.rtf */,
+				4931B6D007E7A5C3008C794B /* statusitem.tif */,
+				4931B6D407E7A5CA008C794B /* background.tif */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				49ED6F89089F4D3F001303DE /* Prefs.nib */,
+				4931B6B907E7A5A8008C794B /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Terminalicious */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49263F390874ACBF00645311 /* Build configuration list for PBXNativeTarget "Terminalicious" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Terminalicious;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Terminalicious;
+			productReference = 8D1107320486CEB800E47090 /* Terminalicious.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 49263F3D0874ACBF00645311 /* Build configuration list for PBXProject "Terminalicious" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Terminalicious */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Terminalicious */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				4931B6BB07E7A5A8008C794B /* MainMenu.nib in Resources */,
+				4931B6C607E7A5BA008C794B /* DSHTransparentDraggableWindow.h in Resources */,
+				4931B6C707E7A5BA008C794B /* DSHController.h in Resources */,
+				4931B6CA07E7A5BA008C794B /* DSHTransparentView.h in Resources */,
+				4931B6CD07E7A5BA008C794B /* DSHTransparentWindow.h in Resources */,
+				4931B6D107E7A5C3008C794B /* statusitem.tif in Resources */,
+				4931B6D507E7A5CA008C794B /* background.tif in Resources */,
+				4918319A07E8EA7000AAA839 /* terminalicious.icns in Resources */,
+				49AF5E67081471030016085E /* iterm.applescript in Resources */,
+				49AF5E7E081472360016085E /* terminal.applescript in Resources */,
+				49ED6F8A089F4D3F001303DE /* Prefs.nib in Resources */,
+				4996F87D0A392109006E6332 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				4931B6C807E7A5BA008C794B /* DSHController.m in Sources */,
+				4931B6C907E7A5BA008C794B /* DSHTransparentView.m in Sources */,
+				4931B6CB07E7A5BA008C794B /* DSHTransparentDraggableWindow.m in Sources */,
+				4931B6CC07E7A5BA008C794B /* DSHTransparentWindow.m in Sources */,
+				49219F04088EE9DE00303F9B /* DSHCustomSelectionColorTextView.m in Sources */,
+				49ED6F92089F4EF7001303DE /* DSHPrefsController.m in Sources */,
+				4996F8990A39967E006E6332 /* TRMHotkeyManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4931B6B907E7A5A8008C794B /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4931B6BA07E7A5A8008C794B /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49263F3A0874ACBF00645311 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Terminalicious_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Terminalicious;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		49263F3B0874ACBF00645311 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Terminalicious_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Terminalicious;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		49263F3C0874ACBF00645311 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Terminalicious_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Terminalicious;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		49263F3E0874ACBF00645311 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		49263F3F0874ACBF00645311 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		49263F400874ACBF00645311 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49263F390874ACBF00645311 /* Build configuration list for PBXNativeTarget "Terminalicious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49263F3A0874ACBF00645311 /* Development */,
+				49263F3B0874ACBF00645311 /* Deployment */,
+				49263F3C0874ACBF00645311 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		49263F3D0874ACBF00645311 /* Build configuration list for PBXProject "Terminalicious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49263F3E0874ACBF00645311 /* Development */,
+				49263F3F0874ACBF00645311 /* Deployment */,
+				49263F400874ACBF00645311 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

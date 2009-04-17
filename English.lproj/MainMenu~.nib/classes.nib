@@ -1,0 +1,46 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                clearHistory = id; 
+                escPressed = id; 
+                launchCommandFromMenu = id; 
+                openWebsite = id; 
+                showAboutPanel = id; 
+                showPrefsPanel = id; 
+                toggleCommandWindow = id; 
+                toggleHistoryWindow = id; 
+                windowMoved = id; 
+            }; 
+            CLASS = DSHController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                commandTextField = id; 
+                commandWindow = id; 
+                historySubMenu = id; 
+                historyTableView = id; 
+                historyWindow = id; 
+                keepOpenMenuItem = id; 
+                showHistoryWindowButton = id; 
+                statusItemMenu = id; 
+                useTerminalMenuItem = id; 
+                useiTermMenuItem = id; 
+                windowPositionDesktopMenuItem = id; 
+                windowPositionFloatingMenuItem = id; 
+                windowPositionTopMenuItem = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = DSHCustomTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {CLASS = DSHDragAndDropTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            CLASS = DSHTransparentDraggableWindow; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = DSHTransparentWindow; 
+        }, 
+        {CLASS = DSHTransparentView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = DSHTransparentWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}
